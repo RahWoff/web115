@@ -2,8 +2,51 @@ body
 {
   /* you better change this stuff */
   margin: 50px;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  margin: 10px;
+}
+
+
+
+article { 
+  margin-left: 10px;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+nav ul li a:link {
+  text-decoration: none;
   color: blue;
-  background-color: orange;
-  font-size: 100%;
+}
+
+nav ul li a:visited {
+  text-decoration: underline;
+}
+
+footer {
+	margin-left: 10px;
 }
