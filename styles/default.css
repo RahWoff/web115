@@ -12,10 +12,22 @@ body
 
 header {
   margin: 10px;
+  text-align: center;
 }
 
-h1, h2{ 
+h1, h2 { 
  font-family: Times, serif;
+}
+
+h2 {
+text-align: center;
+}
+
+.center-image {
+    text-align: center;
+}
+.center-horizontal {
+	text-align: center;
 }
 
 
@@ -57,4 +69,5 @@ nav ul li a:visited {
 
 footer {
 	margin-left: 10px;
+	text-align: center;
 }
