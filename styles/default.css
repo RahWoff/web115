@@ -4,8 +4,8 @@ body
   margin-left: 100px;
   margin-right: 100px;
   font-family: Tahoma, Arial, sans-serif;
-  color: #003844;
-  background-color: #ffebc6;
+  color: #F2E1C8;/*Cream Color*/
+  background-color: #1C005F;/*Navy Blue*/
   
 }
 
@@ -29,13 +29,39 @@ text-align: center;
 .center-horizontal {
 	text-align: center;
 }
+.nav-style a {
+  text-decoration: none;
+  color: #F2E1C8; 
+}
+
+.nav-style a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.nav-style a:visited {
+  text-decoration: none;
+  color: #E8E2F7;
+}
+.href-intro a {
+  text-decoration: none;
+  color: #F2E1C8 
+}
+
+.href-intro a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.href-intro a:visited {
+  text-decoration: none;
+  color: #F2E1C8;
+}
 
 
 p { 
   margin-left: 10px;
 }
-
-
 
 nav ul {
   list-style-type: none;
@@ -45,26 +71,6 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-}
-
-
-nav ul li a:hover {
-  text-decoration: underline;
-  color: white;
-}
-
-nav ul li a:link {
-  text-decoration: none;
-  color: #006c67;
-}
-
-nav ul li a:visited {
-  text-decoration: underline;
-  color: #ffb100;
 }
 
 footer {
