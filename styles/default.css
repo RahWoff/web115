@@ -1,65 +1,68 @@
-body
-{
+body {
   /* https://coolors.co/003844-006c67-f194b4-ffb100-ffebc6 */
   margin-left: 100px;
   margin-right: 100px;
   font-family: Tahoma, Arial, sans-serif;
-  color: #F2E1C8;/*Cream Color*/
-  background-color: #1C005F;/*Navy Blue*/
-  
+  color: #F2E1C8; /* Cream Color */
+  background-color: #1C005F; /* Navy Blue */
 }
-
 
 header {
   margin: 10px;
   text-align: center;
 }
 
-h1, h2 { 
- font-family: Times, serif;
+h1, h2 {
+  font-family: Times, serif;
 }
 
 h2 {
-text-align: center;
+  text-align: center;
 }
 
 .center-image {
-    text-align: center;
+  text-align: center;
 }
+
 .center-horizontal {
-	text-align: center;
+  text-align: center;
 }
+
 .nav-style a {
   text-decoration: none;
-  color: #F2E1C8; 
+  color: #F2E1C8; /* Cream Color */
 }
 
 .nav-style a:hover {
   text-decoration: underline;
-  color: white;
 }
 
 .nav-style a:visited {
   text-decoration: none;
-  color: #E8E2F7;
+  color: #E8E2F7; /*Lavender */
 }
+
 .href-intro a {
   text-decoration: none;
-  color: #F2E1C8 
+  color: #F2E1C8; /* Cream Color */
 }
 
 .href-intro a:hover {
   text-decoration: underline;
-  color: white;
+  color: #FA4616; /* Orange */
 }
 
 .href-intro a:visited {
   text-decoration: none;
-  color: #F2E1C8;
+  color: #F2E1C8; /* Cream Color */
+}
+.subheading {
+	text-align: center; 
 }
 
+}
 
-p { 
+p {
   margin-left: 10px;
 }
 
@@ -74,6 +77,7 @@ nav ul li {
 }
 
 footer {
-	margin-left: 10px;
-	text-align: center;
+  margin-left: 10px;
+  text-align: center;
 }
+
