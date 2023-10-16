@@ -1,19 +1,15 @@
 body {
-  /* https://coolors.co/003844-006c67-f194b4-ffb100-ffebc6 */
+  /* https://coolors.co/16166b-e3d6c3-e6e6fa */
   margin-left: 100px;
   margin-right: 100px;
-  font-family: Tahoma, Arial, sans-serif;
-  color: #F2E1C8; /* Cream Color */
-  background-color: #1C005F; /* Navy Blue */
+  font-family: Bodoni;
+  color: #E3D6C3; /* Bone */
+  background-color:  #16166B /* Federal Blue */
 }
 
 header {
-  margin: 10px;
+  margin: 10px; 
   text-align: center;
-}
-
-h1, h2 {
-  font-family: Times, serif;
 }
 
 h2 {
@@ -24,13 +20,17 @@ h2 {
   text-align: center;
 }
 
+.brand-image {
+  text-align: center;
+}
+
 .center-horizontal {
   text-align: center;
 }
 
 .nav-style a {
   text-decoration: none;
-  color: #F2E1C8; /* Cream Color */
+  color: #E3D6C3; /* Bone */
 }
 
 .nav-style a:hover {
@@ -39,25 +39,45 @@ h2 {
 
 .nav-style a:visited {
   text-decoration: none;
-  color: #E8E2F7; /*Lavender */
+  color: #E6E6FA; /* Lavender */
 }
 
 .href-intro a {
   text-decoration: none;
-  color: #F2E1C8; /* Cream Color */
+  color: #E3D6C3; /* Bone */
 }
 
 .href-intro a:hover {
   text-decoration: underline;
-  color: #FA4616; /* Orange */
 }
 
 .href-intro a:visited {
   text-decoration: none;
-  color: #F2E1C8; /* Cream Color */
+  color: #E3D6C3; /* Bone */
 }
 .subheading {
-	text-align: center; 
+	text-align: center;
+	font-family: Segoe UI;
+}
+
+#font-boxes {	  
+  color: #E3D6C3; /* Bone */
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.bodoni {
+  text-align: center;
+  font-family: Bodoni;
+  padding: 40px;
+  border: 1px solid #E6E6FA; /* Lavender */
+}
+
+.segoe {
+  text-align: center;
+  font-family: Segoe UI;
+  padding: 40px;
+  border: 1px solid #E6E6FA; /* Lavender */
 }
 
 p {
