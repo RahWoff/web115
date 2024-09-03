@@ -61,7 +61,7 @@ h2 {
 }
 
 #font-boxes {	  
-  color: #E3D6C3; /* Bone */
+  color: #E6E6FA; /* Bone */
   display: grid;
   grid-template-columns: auto auto;
 }
