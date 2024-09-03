@@ -28,13 +28,9 @@ h2 {
   text-align: center;
 }
 
-.nav-style a {
+.nav-style a:link {
   text-decoration: none;
-  color: #E3D6C3; /* Bone */
-}
-
-.nav-style a:hover {
-  text-decoration: underline;
+  color: #16166B; /* Federal Blue */
 }
 
 .nav-style a:visited {
@@ -42,13 +38,18 @@ h2 {
   color: #E6E6FA; /* Lavender */
 }
 
+.nav-style a:hover {
+  text-decoration: underline;
+}
+
 .href-intro a {
   text-decoration: none;
-  color: #E3D6C3; /* Bone */
+  color: #E6E6FA; /* Bone */
 }
 
 .href-intro a:hover {
   text-decoration: underline;
+  color:#16166B; 
 }
 
 .href-intro a:visited {
@@ -61,7 +62,7 @@ h2 {
 }
 
 #font-boxes {	  
-  color: #E6E6FA; /* Bone */
+  color: #16166B; /* Bone */
   display: grid;
   grid-template-columns: auto auto;
 }
