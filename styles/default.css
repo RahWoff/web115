@@ -28,21 +28,22 @@ h2 {
   text-align: center;
 }
 
-.nav-style a:link {
-  text-decoration: none;
-  color: #16166B; /* Federal Blue */
-}
-
-.nav-style a:visited {
-  text-decoration: none;
-  color: #E6E6FA; /* Lavender */
-}
-
 .nav-style a:hover {
-  text-decoration: underline;
+ text-decoration:none;
+ color: #16166B;
 }
 
-.href-intro a {
+.nav-style a {
+  text-decoration: none;
+  color:  #E6E6FA; /*Lavender*/
+}
+
+.href-intro a:link {
+  text-decoration: none;
+  color:#E6E6FA; /* Bone */
+}
+
+.href-intro a:visited {
   text-decoration: none;
   color: #E6E6FA; /* Bone */
 }
@@ -52,17 +53,13 @@ h2 {
   color:#16166B; 
 }
 
-.href-intro a:visited {
-  text-decoration: none;
-  color: #E3D6C3; /* Bone */
-}
 .subheading {
 	text-align: center;
 	font-family: Segoe UI;
 }
 
 #font-boxes {	  
-  color: #16166B; /* Bone */
+  color: #16166B; /*Federal Blue*/
   display: grid;
   grid-template-columns: auto auto;
 }
