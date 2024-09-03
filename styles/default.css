@@ -3,8 +3,8 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   font-family: Bodoni;
-  color: #E3D6C3; /* Bone */
-  background-color:  #16166B /* Federal Blue */
+  color: #16166B; /* Federal Blue */
+  background-color: #E3D6C3 /* Bone */
 }
 
 header {
