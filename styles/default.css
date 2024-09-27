@@ -34,23 +34,24 @@ h2 {
 }
 
 .nav-style a {
+  font-size: 20px;
   text-decoration: none;
   color:  #f13535; /*Vermillion*/
 }
 
 .href-intro a:link {
   text-decoration: none;
-  color:#E3D6C3; /* Bone */
+  color:#f13535; /*Vermillion*/
 }
 
 .href-intro a:visited {
   text-decoration: none;
-  color: #E3D6C3; /* Bone */
+  color: #16166B; /*Federal Blue*/
 }
 
 .href-intro a:hover {
   text-decoration: underline;
-  color:#16166B; 
+  color:#16166B; /*Federal Blue*/
 }
 
 .subheading {
