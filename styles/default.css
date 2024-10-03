@@ -25,7 +25,12 @@ h2 {
 }
 
 .center-horizontal {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  line-height: 1.2em;
 }
 
 .nav-style a:hover {
@@ -55,7 +60,12 @@ h2 {
 }
 
 .subheading {
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  line-height: 1.8em;
 	font-family: Segoe UI;
 }
 
