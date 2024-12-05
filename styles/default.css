@@ -1,79 +1,91 @@
 body {
-  /* https://coolors.co/16166b-aadaff-f13535 */
   font-family: 'Bodoni', Segoe UI, sans-serif;
-  color: #16166B; /*Federal Blue*/
+  color: #F6BD60; /* Hunyadi Yellow */
   font-size: 1.2em;
-  background-color: #daefff/* Alice Blue */;
+  background-color: #2A3B4D; /* Charcoal */
   margin: 25px 50px;
 }
 
 header {
   margin: 25px 50px;
+  text-align: center;
+  color: #84A59D; /* Cambridge Blue */
 }
 
-h2, h3, h4 {
+h2, h3 {
   margin: 25px 50px;
+  text-align: center;
+  color: #F28482; /* Light Coral */
 }
 
 main p {
   margin: 10px 50px;
   font-family: Bodoni;
+  color: #F6BD60; /* Hunyadi Yellow */
 }
 
-.nav-style {
+p a:link, li a:link {
+  text-decoration: none;
+  color: #F6BD60; /* Hunyadi Yellow */
+}
+
+p a:visited, li a:visited {
+  text-decoration: none;
+  color: #84A59D; /* Cambridge Blue */
+}
+
+p a:hover, li a:hover {
+  text-decoration: underline;
+  color: #F28482; /* Light Coral */
+}
+
+figure {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center; 
+}
+
+figcaption {
+  text-align: center;
+  color: #84A59D; /* Cambridge Blue */
+}
+
+#font-boxes {
+  color: #F6BD60; /* Hunyadi Yellow */
+  display: grid;
+  grid-template-columns: 400px 400px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.bodoni, .segoe {
+  text-align: center;
+  font-family: Bodoni;
+  padding: 15px;
+  border: 1px solid #84A59D; /* Cambridge Blue */
+}
+
+nav {
   font-size: 2em;
   font-weight: bold;
 }
 
-.nav-style a:hover {
- text-decoration:none;
- color: #f13535; /*Vermillion*/
-}
-
-.nav-style a {
+nav a {
   font-size: 20px;
   text-decoration: none;
-  color: #16166B; /*Federal Blue*/
+  color: #F28482; /* Light Coral */
 }
 
-
-.href-intro a:link {
-  text-decoration: none;
-  color:  #16166B; /*Federal Blue*/
+nav a:visited {
+  color: #F6BD60; /* Hunyadi Yellow */
 }
 
-.href-intro a:visited {
-  text-decoration: none;
-  color: #16166B; /*Federal Blue*/
-}
-
-.href-intro a:hover {
-  text-decoration: underline;
-  color: #f13535; /*Vermillion*/
-}
-
-.brand-image {
-  margin: 25px 50px;
-}
-
-#font-boxes {	  
-  color: #16166B; /*Federal Blue*/
-  display: grid;
-  grid-template-columns: 400px 400px;
-}
-
-.bodoni {
-  text-align: center;
-  font-family: Bodoni;
-  padding: 15px;
-  border: 1px solid #f13535; /*Vermillion*/
-}
-
-.segoe {
-  text-align: center;
-  font-family: Segoe UI;
-  padding: 15px;
-  border: 1px solid #f13535; /*Vermillion*/
+nav a:hover {
+ text-decoration: none;
+ color:#F28482; /* Light Coral */
 }
 
 nav ul {
@@ -89,4 +101,5 @@ nav ul li {
 footer {
   text-align: center;
   margin: auto 250px;
+  color: #84A59D; /* Cambridge Blue */
 }
