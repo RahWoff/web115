@@ -1,9 +1,9 @@
 body {
-  /* https://coolors.co/16166b-e3d6c3-f13535 */
+  /* https://coolors.co/16166b-aadaff-f13535 */
   font-family: 'Bodoni', Segoe UI, sans-serif;
-  color: #EBE9E9; /* Platinum */
+  color: #16166B; /*Federal Blue*/
   font-size: 1.2em;
-  background-color: #3581B8/* Steel Blue */;
+  background-color: #daefff/* Alice Blue */;
   margin: 25px 50px;
 }
 
@@ -21,24 +21,21 @@ main p {
 }
 
 .nav-style {
-  font-size: 24px;
+  font-size: 2em;
   font-weight: bold;
 }
 
 .nav-style a:hover {
  text-decoration:none;
- color: #16166B; /*Vermillion*/
+ color: #f13535; /*Vermillion*/
 }
 
 .nav-style a {
   font-size: 20px;
   text-decoration: none;
-  color: #f13535;; /*Federal Blue*/
+  color: #16166B; /*Federal Blue*/
 }
 
-.href-intro {
-  color: #f13535;
-}
 
 .href-intro a:link {
   text-decoration: none;
@@ -47,12 +44,12 @@ main p {
 
 .href-intro a:visited {
   text-decoration: none;
-  color:  #f13535; /*Vermillion*/
+  color: #16166B; /*Federal Blue*/
 }
 
 .href-intro a:hover {
   text-decoration: underline;
-  color: #16166B; /*Federal Blue*/
+  color: #f13535; /*Vermillion*/
 }
 
 .brand-image {
@@ -69,14 +66,14 @@ main p {
   text-align: center;
   font-family: Bodoni;
   padding: 15px;
-  border: 1px solid #EBE9E9; /*Platinum*/
+  border: 1px solid #f13535; /*Vermillion*/
 }
 
 .segoe {
   text-align: center;
   font-family: Segoe UI;
   padding: 15px;
-  border: 1px solid #EBE9E9; /*Platinum*/
+  border: 1px solid #f13535; /*Vermillion*/
 }
 
 nav ul {
