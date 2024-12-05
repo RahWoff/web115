@@ -21,33 +21,38 @@ main p {
 }
 
 .nav-style {
-  font-size: 1.6em;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .nav-style a:hover {
  text-decoration:none;
- color: #f13535; /*Vermillion*/
+ color: #16166B; /*Vermillion*/
 }
 
 .nav-style a {
   font-size: 20px;
   text-decoration: none;
-  color: #16166B; /*Federal Blue*/
+  color: #f13535;; /*Federal Blue*/
+}
+
+.href-intro {
+  color: #f13535;
 }
 
 .href-intro a:link {
   text-decoration: none;
-  color:#EBE9E9; /*Platinum*/
+  color:  #EBE9E9; /*Platinum*/
 }
 
 .href-intro a:visited {
   text-decoration: none;
-  color: #16166B; /*Federal Blue*/
+  color:  #f13535; /*Vermillion*/
 }
 
 .href-intro a:hover {
   text-decoration: underline;
-  color: #f13535; /*Vermillion*/
+  color: #16166B; /*Federal Blue*/
 }
 
 .brand-image {
