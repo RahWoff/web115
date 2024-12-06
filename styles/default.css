@@ -3,8 +3,12 @@ body {
   color: #F6BD60; /* Hunyadi Yellow */
   font-size: 1.2em;
   background-color: #2A3B4D; /* Charcoal */
-  margin: 25px 50px;
+  margin: 0;
+  padding: 25px;
+  max-width: 1200px; /* Set maximum width */
+  margin: 0 auto; /* Center the content */
 }
+
 
 header {
   margin: 25px 50px;
@@ -49,18 +53,19 @@ figure {
 
 figcaption {
   text-align: center;
+  font-style: italic;
   color: #84A59D; /* Cambridge Blue */
 }
 
-#font-boxes {
-  color: #F6BD60; /* Hunyadi Yellow */
-  display: grid;
-  grid-template-columns: 400px 400px;
-  margin: 0 auto;
-  justify-content: center;
-  gap: 20px; 
-}
-
+  #font-boxes {
+    color: #F6BD60; /* Hunyadi Yellow */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* for Responsive columns */
+    margin: 0 auto;
+    gap: 20px;
+    max-width: 1000px; 
+  }
+  
 .bodoni, .segoe {
   text-align: center;
   font-family: Bodoni;
@@ -100,6 +105,17 @@ nav ul li {
 
 footer {
   text-align: center;
-  margin: auto 250px;
+  margin: 20px auto;
+  padding: 10px;
   color: #84A59D; /* Cambridge Blue */
+  max-width: 1200px;
+  width: 90%; /* adapts to smaller screens */
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.9em; 
+    padding: 5px; 
+  }
 }
